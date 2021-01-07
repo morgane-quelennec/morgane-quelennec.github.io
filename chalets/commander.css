@@ -1,0 +1,103 @@
+#seco{
+	margin-top: 100px;
+}
+
+.ab{
+	text-align: center;
+}
+
+#sec{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D8D8D8;
+	width: 40%;
+	height: 450px;
+	margin-left: 30%;
+	margin-right: 30%;
+	position: absolute;
+	border-radius: 5px;
+
+}
+
+#un{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-bottom: 20px;
+	text-align : right;
+}
+.top{
+	margin-top: 20px;
+	margin-right: 150px;
+}
+
+#deux{
+	padding-bottom: 20px;
+	margin-top: 10px;
+	text-align : right;
+	
+}
+.top2{
+	margin-top: 10px;
+	margin-right: 150px;
+}
+
+#connex2{
+	display: none;
+}
+
+@media only screen and (max-width: 1200px){
+	#connex{
+		display: none;
+	}
+
+	#connex2{
+		display: block;
+		width: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+	.top3{
+		margin: 20px;
+	}
+
+
+	#lol{
+		border-style: solid;
+		border-color: #D8D8D8;
+		border-width: 1px; 
+		margin-left: 5%;
+		width: 100%;
+		margin-top: 100px;
+		float: left;
+		text-align: center;
+	}
+
+	#lol input{
+		border-bottom-style: solid;
+		border-bottom-color: #D8D8D8;
+		border-bottom-width: 1px; 
+	}
+
+	#lol h1{
+		text-align: center;
+	}
+
+	#commander{
+	margin-top: 50px;
+	float: right;
+	display: block;
+	border-radius: 20px;
+	height: 30px;
+	text-align: center;
+	width: 200px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D8D8D8;
+}
+
+#commander1{
+	margin-top: 5px;
+}
+#commander:hover{background-color: #D8D8D8; color: #FFFFFF;}
+} 

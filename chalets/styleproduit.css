@@ -1,0 +1,189 @@
+body{
+	margin:0;
+	padding: 0;
+	background-color : #FFFFFF;
+	color: #000000;
+	font-family: 'Garamond','Baskerville','Baskerville Old Face','Hoefler Text','Times New Roman',serif;
+}
+
+#page{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 100px;
+}
+
+#prod{
+	margin-top: 100px;
+	width: 100%;
+	height: 400px;
+	background-color: #D8D8D8;
+}
+
+#prod2{
+	display: none;
+}
+#image{
+	float: left;
+	width: 40%;
+	background-image:url("../images/montres/h1.jpg");
+	height: 100%;
+}
+
+#text{
+	float: right;
+	height: 100%;
+	width: 50%;
+	text-align: center;
+}
+#titre{
+	margin-top: 10px;
+	height: 40%;
+}
+
+#titre2{
+	margin-top: 20px;
+	height: 50%;
+}
+
+#titre2 li{
+	list-style: none;
+	text-align: left;
+}
+
+#commander{
+	margin-top: 10px;
+	border-radius: 20px;
+	height: 30px;
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#commander1{
+	margin-top: 5px;
+}
+#commander:hover{background-color: #D8D8D8; color: #FFFFFF;}
+
+
+#prod2{
+	display: none;
+}
+
+
+
+
+footer{
+	margin-top: 100px;
+	width: 100%;
+	height: 100px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #D8D8D8;
+	color:#585858;
+}
+
+
+#footergauche{
+	float:left;
+	width: 40%;
+	height: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 20px;
+
+	text-align: center;
+}
+
+#footerdroite{
+	float: right;
+	width: 40%;
+	height: 90%;
+	margin-right: 5%;
+	margin-top: 20px;
+	text-align: center;
+}
+.textfoot:hover{
+	text-decoration: underline;
+}
+
+#footcache{
+	display: none;
+}
+
+#reseaux img{
+	margin: 10px;
+}
+
+@media only screen and (max-width : 1000px) {
+	#footergauche{
+		display: none;
+	}
+
+	#footerdroite{
+		display: none;
+	}
+
+	#footcache{
+		display: block;
+		text-align: center;
+		padding : 5px;
+	}
+
+	#prod{
+		display: none;
+	}
+
+	#prod2{
+	display: block;
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+	}
+
+
+
+	#text2{
+		display: block;
+		height: 100%;
+		width: 50%;
+		margin-left: 20%;
+		text-align: center;
+	}
+	#titre2{
+		margin-top: 10px;
+		height: 40%;
+	}
+
+	#titre3{
+		margin-top: 20px;
+		height: 50%;
+	}
+
+	#titre3 li{
+		list-style: none;
+		text-align: left;
+	}
+
+	#commander2{
+		margin-top: 10px;
+		border-radius: 20px;
+		height: 30px;
+		text-align: center;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		border-style: solid;
+		border-width: 1px;
+	}
+
+	#commander12{
+		margin-top: 5px;
+	}
+	#commander1:hover{background-color: #D8D8D8; color: #FFFFFF;}
+		}
+
+

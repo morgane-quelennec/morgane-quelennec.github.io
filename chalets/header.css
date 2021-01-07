@@ -1,0 +1,127 @@
+body{
+	margin:0;
+	padding: 0;
+	background-color : #FFFFFF;
+	color: #000000;
+	font-family: 'Garamond','Baskerville','Baskerville Old Face','Hoefler Text','Times New Roman',serif;
+	width:100%;
+}
+
+.hautgauche{
+	position: absolute;
+		left:0;
+		top:0;
+}
+
+#logo 
+{
+	float : left;
+	height: 120px;
+	box-shadow: 10px 10px 0px 0px rgba(194, 217, 217, 0.4);
+	border-radius:30px;
+}
+
+header{
+	width : 100%;
+	position: absolute;
+	top:0;
+	border-bottom-style:solid;
+	border-bottom-width: 5px;
+	border-bottom-color: #D8D8D8;
+}
+
+
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover{text-decoration: underline;}
+
+
+.titre{
+	text-align: center;
+	font-style: italic;
+	}
+
+
+.hautdroite{
+	position: absolute;
+		right: 0;
+		top:0;
+	margin-right: 20px;
+}
+
+li.liste1{
+	display: inline-block;
+	width: auto;
+	margin:0;
+	
+}
+.liste1:hover{ text-decoration: underline;}
+
+@media only screen and (max-width : 1200px) {
+
+
+#rechercher{
+	display: inline-block;
+	margin-left:0;
+	background-color: white;
+	border-radius: 20px;
+	width:60%;
+	margin-right: 20%;
+	margin-left: 20%;
+	height: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D8D8D8;
+	}
+}
+
+
+input, button {
+	border-style: none none solid none;
+	border-width: 1px;
+	border-color: lightgrey;
+	background-color: rgba(238,243,243, 0.4);
+	border-radius: 2px 2px;
+}
+
+nav
+{
+	border: 1px dotted lightgrey;
+	width: 100%;
+	border-radius: 30px;
+	background-color: #FFFFFF;
+	box-shadow: 10px 10px 5px rgba(35,101,115, 0.2);
+	padding-top:150px;
+}
+
+form 
+{
+	position:relative;
+	bottom:0.5em;
+	right: 3em;
+	text-align: right;
+}
+
+nav form{
+	left:80%;
+	width: 20%;
+	text-align: center;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	color: #386565; 
+	font-weight: bold;
+	
+
+	background-color: #FFFFFF;
+	padding: 1em;
+}
+
+
+
+

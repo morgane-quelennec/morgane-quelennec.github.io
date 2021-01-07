@@ -1,0 +1,39 @@
+.recherche {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+    border: 3px black inset;
+    border-radius: 10px;
+
+
+}
+
+.recherche img{
+	height: 200px;
+	background-position: left;
+}
+
+
+.recherche a {
+	grid-column: 1;
+	justify-self: center;
+}
+
+.recherche h5,{
+	text-align: right;
+}
+	
+	
+.recherche p{
+	color : #37A815;
+}
+
+
+.recherche h4, .recherche h5{
+	font-size : 1.2em;
+	margin-left: 0em;
+	
+
+}
+
+
+
